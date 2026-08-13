@@ -2,7 +2,7 @@ const Arrow = () => <span aria-hidden="true">&#8599;</span>;
 
 const properties = [
   {
-    neighborhood: "Pacific Heights",
+    neighborhood: "Beverly Hills",
     title: "Timeless city residence",
     details: "4 beds Â· 3.5 baths Â· 3,480 sq ft",
     price: "$6,850,000",
@@ -10,7 +10,7 @@ const properties = [
       "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=88",
   },
   {
-    neighborhood: "Marin County",
+    neighborhood: "Hollywood Hills",
     title: "A private hillside retreat",
     details: "5 beds Â· 4.5 baths Â· 4,920 sq ft",
     price: "$5,295,000",
@@ -18,7 +18,7 @@ const properties = [
       "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1600&q=88",
   },
   {
-    neighborhood: "Noe Valley",
+    neighborhood: "West Hollywood",
     title: "Modern indoor-outdoor living",
     details: "4 beds Â· 4 baths Â· 3,120 sq ft",
     price: "$4,750,000",
@@ -44,7 +44,7 @@ export default function Home() {
         <a className="header-cta" href="#contact">Let&apos;s talk <Arrow /></a>
       </header>
 
-      <section className="hero" id="top" aria-label="Luxury Bay Area real estate">
+      <section className="hero" id="top" aria-label="Luxury Los Angeles real estate">
         <iframe
           className="hero-video"
           src="https://player.vimeo.com/video/317337087?background=1&autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0"
@@ -53,7 +53,7 @@ export default function Home() {
         />
         <div className="hero-shade" />
         <div className="hero-content">
-          <p className="eyebrow light">San Francisco Â· Marin Â· Beyond</p>
+          <p className="eyebrow light">Los Angeles Â· Beverly Hills Â· Beyond</p>
           <h1>Find the place<br />that feels like <em>you.</em></h1>
           <p className="hero-copy">Thoughtful representation for remarkable homes and the people who give them meaning.</p>
           <div className="hero-actions">
@@ -85,7 +85,7 @@ export default function Home() {
             <p className="eyebrow">Curated collection</p>
             <h2>Exceptional homes,<br /><em>thoughtfully chosen.</em></h2>
           </div>
-          <p className="section-note">Representative portfolio<br />Bay Area residences</p>
+          <p className="section-note">Representative portfolio<br />Los Angeles residences</p>
         </div>
         <div className="property-grid">
           {properties.map((property, index) => (
@@ -123,21 +123,21 @@ export default function Home() {
         <div className="expertise-top">
           <div>
             <p className="eyebrow light">Local knowledge, lived in</p>
-            <h2>Rooted in the<br /><em>Bay Area.</em></h2>
+            <h2>Rooted in<br /><em>Los Angeles.</em></h2>
           </div>
-          <p>From storied city blocks to sunlit Marin hills, Vember helps clients understand not just the market, but the rhythm of each neighborhood.</p>
+          <p>From iconic hillside streets to sunlit coastal communities, Vember helps clients understand not just the market, but the rhythm of each neighborhood.</p>
         </div>
         <div className="neighborhoods">
-          <a href="#contact"><span>01</span><strong>San Francisco</strong><small>Urban character &amp; iconic architecture</small><Arrow /></a>
-          <a href="#contact"><span>02</span><strong>Marin County</strong><small>Natural beauty &amp; refined living</small><Arrow /></a>
-          <a href="#contact"><span>03</span><strong>Peninsula</strong><small>Connected, spacious &amp; enduring</small><Arrow /></a>
+          <a href="#contact"><span>01</span><strong>Beverly Hills</strong><small>Timeless prestige &amp; iconic estates</small><Arrow /></a>
+          <a href="#contact"><span>02</span><strong>Hollywood Hills</strong><small>Architectural homes &amp; sweeping views</small><Arrow /></a>
+          <a href="#contact"><span>03</span><strong>West Hollywood</strong><small>Design-forward &amp; centrally connected</small><Arrow /></a>
         </div>
       </section>
 
       <section className="testimonial section-pad">
         <p className="quote-mark">â€œ</p>
         <blockquote>Vember saw what mattered to us before we could put it into words. Every step felt considered, calm, and completely personal.</blockquote>
-        <p className="attribution">â€” Recent buyer Â· San Francisco</p>
+        <p className="attribution">â€” Recent buyer Â· Los Angeles</p>
       </section>
 
       <section className="contact" id="contact">
