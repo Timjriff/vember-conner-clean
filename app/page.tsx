@@ -51,9 +51,9 @@ export default function Home() {
           muted
           loop
           playsInline
-          poster="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=2000&q=90"
+          poster="https://images.pexels.com/videos/11400591/beverly-hills-biggest-home-in-los-angeles-mansion-million-11400591.jpeg?auto=compress&fit=crop&w=2000"
         >
-          <source src="https://videos.pexels.com/video-files/17224715/17224715-uhd_3840_2160_30fps.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/11400591/11400591-hd_1920_1080_30fps.mp4" type="video/mp4" />
         </video>
         <div className="hero-shade" />
         <div className="hero-content">
