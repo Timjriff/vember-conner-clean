@@ -45,16 +45,12 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top" aria-label="Luxury Bay Area real estate">
-        <video
+        <iframe
           className="hero-video"
-          autoPlay
-          muted
-          loop
-          playsInline
-          poster="https://images.pexels.com/videos/11400591/beverly-hills-biggest-home-in-los-angeles-mansion-million-11400591.jpeg?auto=compress&fit=crop&w=2000"
-        >
-          <source src="https://videos.pexels.com/video-files/11400591/11400591-hd_1920_1080_30fps.mp4" type="video/mp4" />
-        </video>
+          src="https://player.vimeo.com/video/317337087?background=1&autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0"
+          title="Los Angeles luxury property tour"
+          allow="autoplay; fullscreen; picture-in-picture"
+        />
         <div className="hero-shade" />
         <div className="hero-content">
           <p className="eyebrow light">San Francisco Â· Marin Â· Beyond</p>
