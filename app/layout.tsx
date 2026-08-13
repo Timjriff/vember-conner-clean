@@ -21,8 +21,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost:3000";
   const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.includes("localhost") ? "http" : "https");
   const origin = `${protocol}://${host}`;
-  const title = "Vember Conner | Bay Area Real Estate";
-  const description = "Thoughtful representation for remarkable homes across San Francisco, Marin, and the Bay Area.";
+  const title = "Vember Conner | Los Angeles Real Estate";
+  const description = "Thoughtful representation for remarkable homes across Los Angeles, Beverly Hills, and the Hollywood Hills.";
 
   return {
     title,
@@ -31,7 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       type: "website",
-      images: [{ url: `${origin}/og.png`, width: 1730, height: 909, alt: "Vember Conner â€” Bay Area Real Estate" }],
+      images: [{ url: `${origin}/og.png`, width: 1730, height: 909, alt: "Vember Conner â€” Los Angeles Real Estate" }],
     },
     twitter: { card: "summary_large_image", title, description, images: [`${origin}/og.png`] },
   };
